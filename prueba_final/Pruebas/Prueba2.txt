@@ -1,0 +1,28 @@
+// Prueba 2:
+if(a<123.456.7){
+    print "Hola;
+}
+
+
+
+        
+        
+        palabrasReservadas.put("(",  TipoToken.LEFT_PAREN);
+        palabrasReservadas.put(")",  TipoToken.RIGHT_PAREN);
+        palabrasReservadas.put("{",  TipoToken.LEFT_BRACE);
+        palabrasReservadas.put("}",  TipoToken.RIGHT_BRACE);
+        palabrasReservadas.put(",",  TipoToken.COMMA);
+        palabrasReservadas.put(".",  TipoToken.DOT);
+        palabrasReservadas.put("-",  TipoToken.MINUS);
+        palabrasReservadas.put("+",  TipoToken.PLUS);
+        palabrasReservadas.put(";",  TipoToken.SEMICOLON);
+        palabrasReservadas.put("/",  TipoToken.SLASH);
+        palabrasReservadas.put("*",  TipoToken.STAR);
+        palabrasReservadas.put("!",  TipoToken.BANG);
+        palabrasReservadas.put("!=",  TipoToken.BANG_EQUAL);
+        palabrasReservadas.put("=",  TipoToken.EQUAL);
+        palabrasReservadas.put("==",  TipoToken.EQUAL_EQUAL);
+        palabrasReservadas.put(">",  TipoToken.GREATER);
+        palabrasReservadas.put(">=",  TipoToken.GREATER_EQUAL);
+        palabrasReservadas.put("<",  TipoToken.LESS);
+        palabrasReservadas.put("<=",  TipoToken.LESS_EQUAL);
